@@ -1,44 +1,107 @@
 {
-  "tasks": [
+  "categories": [
     {
       "id": 1,
-      "label": "learn angular",
-      "completed": true
+      "icon": "phone",
+      "name": "iphone"
     },
     {
       "id": 2,
-      "label": "learn Spring boot",
-      "completed": true
+      "icon": "tablet",
+      "name": "ipad"
     },
     {
-      "label": "oracl",
-      "completed": true,
-      "id": 4
+      "id": 3,
+      "icon": "laptop",
+      "name": "macbook"
     },
     {
-      "label": "learn java",
-      "completed": true,
-      "id": 5
+      "id": 4,
+      "icon": "display",
+      "name": "imac"
     },
     {
-      "label": "learn sql",
-      "completed": true,
-      "id": 6
+      "id": 5,
+      "icon": "smartwatch",
+      "name": "Apple Watch"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Produit 1",
+      "description": "Description produit 1",
+      "price": 10,
+      "category": "iphone"
     },
     {
-      "label": "anhijou",
-      "completed": false,
-      "id": 7
+      "id": 2,
+      "name": "Produit 2",
+      "description": "Description produit 2",
+      "price": "20",
+      "category": "ipad"
     },
     {
-      "label": "anhi",
-      "completed": false,
-      "id": 8
+      "id": 3,
+      "name": "Produit 3",
+      "description": "Description produit 3",
+      "price": "300",
+      "category": "iphone"
     },
     {
-      "label": "learn php",
-      "completed": false,
-      "id": 9
+      "id": 4,
+      "name": "Produit 4",
+      "description": "Description produit 4",
+      "price": 40,
+      "category": "ipad"
+    },
+    {
+      "id": 5,
+      "name": "Produit 5",
+      "description": "Description produit 5",
+      "price": 50,
+      "category": "ipad"
+    },
+    {
+      "id": 6,
+      "name": "Produit 6",
+      "description": "Description produit 6",
+      "price": 60,
+      "category": "ipad"
+    },
+    {
+      "id": 7,
+      "name": "Produit 7",
+      "description": "Description produit 7",
+      "price": 70,
+      "category": "ipad"
+    },
+    {
+      "id": 8,
+      "name": "produuct 8",
+      "description": "description product 8",
+      "price": "80",
+      "category": "iphone"
+    }
+  ],
+  "Cart": [
+    {
+      "id": 1,
+      "product": {
+        "id": 1,
+        "name": "Produit 1",
+        "description": "Description produit 1",
+        "price": 10,
+        "category": "iphone"
+      },
+      "quantity": 35
+    }
+  ],
+  "Discount": [
+    {
+      "id": 1,
+      "code": "testd",
+      "discount": 280
     }
   ]
 }
